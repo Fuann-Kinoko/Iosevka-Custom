@@ -1,0 +1,22 @@
+[buildPlans.IosevkaAke17Custom]
+family = "IosevkaAke17Custom"
+spacing = "normal"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+  [buildPlans.IosevkaAke17Custom.variants]
+  inherits = "ss17"
+
+    [buildPlans.IosevkaAke17Custom.variants.design]
+    underscore = "above-baseline"
+
+[buildPlans.IosevkaAke17Custom.weights.Regular]
+shape = 400
+menu = 400
+css = 400
+
+[buildPlans.IosevkaAke17Custom.weights.Bold]
+shape = 700
+menu = 700
+css = 700
